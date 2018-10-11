@@ -13,6 +13,7 @@ namespace primeiro_projeto
             a = double.Parse(vet[0], CultureInfo.InvariantCulture);
             b = double.Parse(vet[1], CultureInfo.InvariantCulture);
             c = double.Parse(vet[2], CultureInfo.InvariantCulture);
+            var d = double.Parse(vet[2], CultureInfo.InvariantCulture);
 
             delta = b * b - 4 * a * c;
 
